@@ -294,11 +294,11 @@ params:
   # Tabs on homepage
   # Uncomment to enable.
   #
-   Format:
-   customTabs:
-    -
-      name: Revolt Panel
-      link: https://cdn.prismbot.icu
+  # Format:
+  # customTabs:
+  #  -
+  #    name: Revolt Panel
+  #    link: https://cdn.prismbot.icu
 
   # Disable complex server-side
   # calculations that may impact
