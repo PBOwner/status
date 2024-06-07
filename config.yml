@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Revolt Panel
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.prismbot.icu
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,8 +143,11 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Bots
+      description: The Discord Bots
+      closed: true
+    - name: Website
+      description: All of my websites
       closed: true
     - name: Empty Category
     - name: Uncategorized
@@ -158,20 +161,14 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: FuturoBot
+      category: Bots
+    - name: Revolt Panel
+      category: Website
+#    - name: Website
+#      description: The web frontend for the application.
+#      category: Uncategorized
+#      link: https://example.com/
 
   # What date format to use?
   #
