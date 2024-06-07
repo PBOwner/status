@@ -273,7 +273,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -294,11 +294,11 @@ params:
   # Tabs on homepage
   # Uncomment to enable.
   #
-  # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+   Format:
+   customTabs:
+    -
+      name: Revolt Panel
+      link: https://cdn.prismbot.icu
 
   # Disable complex server-side
   # calculations that may impact
@@ -345,7 +345,7 @@ params:
   #
   # Default: `true`
   # BOOLEAN; `true`, `false`
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
 
   # Introduced in v4.0.1 for consistent
   # site title text color.
