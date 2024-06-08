@@ -164,7 +164,9 @@ params:
     - name: FuturoBot
       category: Bots
     - name: Revolt Panel
+      description: File Uploader and Link Shortener
       category: Website
+      link: https://cdn.prismbot.icu
 #    - name: Website
 #      description: The web frontend for the application.
 #      category: Uncategorized
@@ -289,7 +291,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: We continuously monitor our services. If there are any services or downtimes, it will be posted here.
 
   # Tabs on homepage
   # Uncomment to enable.
